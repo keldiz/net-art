@@ -1,0 +1,48 @@
+body {
+  margin: 0px auto;
+max-width: 1000px;
+line-height: 2;
+padding: 50px 40px;
+    background-color:#E5E1DB;
+  font-family: 'Poppins';
+      text-align: center;
+      		padding: 120px 0 0 0;
+      		color: #fff;
+      		background: black;
+
+    }
+h1 {
+    color: #BFBFBF;
+    text-align: center;
+  font-family: 'Poppins';
+
+    }
+  }
+h3 {margin: 80px auto;
+    color: #lightgrey;
+    text-align: center;
+    font-family: 'Poppins';
+
+    }
+a {
+    color: lightgrey;
+    text-decoration: none;
+    text-align: center;
+  font-family: 'Poppins';
+    }
+
+    .image {
+
+        position:absoute;
+        top: 50%;
+        left: 50%;
+        width: 500px;
+        height: 500px;
+        margin:100px 0 0 -60px;
+        -webkit-animation:spin 18s linear infinite;
+        -moz-animation:spin 18s linear infinite;
+        animation:spin 18s linear infinite;
+    }
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
